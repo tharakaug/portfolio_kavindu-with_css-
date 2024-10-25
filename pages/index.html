@@ -4,136 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Recipes</title>
-    <style>
-      * {
-        margin: 0px;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        background-color: #151925;
-      }
-
-      header {
-        position: sticky;
-        top: 0px;
-        left: 0px;
-        background-color: #151925;
-        padding: 10px;
-        text-align: right;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      .container-home {
-        display: grid;
-        background-color: #323648;
-        grid-template-columns: repeat(2, 1fr);
-        height: 500px;
-      }
-      .home button {
-        width: 100%;
-        height: 30px;
-        border-radius: 25px;
-        background-color: aqua;
-      }
-      .home {
-        padding: 100px;
-      }
-      .home-img {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin: 10px;
-        padding: 60px;
-        padding-left: 190px;
-      }
-      nav a {
-        font-size: 17px;
-        text-decoration: none;
-        color: white;
-        padding: 10px;
-      }
-
-      .container-about {
-        display: grid;
-        background-color: #151925;
-        grid-template-columns: repeat(2, 1fr);
-        height: 500px;
-      }
-      .about-img {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin: 10px;
-        padding: 60px;
-        padding-left: 190px;
-      }
-      .btn-about {
-        width: 50%;
-        height: 30px;
-        border-radius: 25px;
-        background-color: aqua;
-      }
-      .about-text {
-        padding: 100px;
-      }
-
-      .service-card {
-        display: grid;
-        background-color: #323648;
-        grid-template-columns: repeat(3, 1fr);
-        height: 400px;
-      }
-      .services-head {
-        text-align: center;
-        padding: 10px;
-        background-color: #323648;
-      }
-      .box5,
-      .box6,
-      .box7 {
-        padding: 70px;
-      }
-
-      .container-contact {
-        background-color: #151925;
-        height: 500px;
-      }
-      .contact-head {
-        text-align: center;
-        padding: 10px;
-        background-color: #151925;
-      }
-      input {
-        margin: 7.2px;
-        border-radius: 10px;
-        border: 0px;
-        background-color: #323648;
-        width: 47%;
-        height: 30px;
-      }
-      input[type="email"],[type="text"] {
-      padding: 10px;
-      }
-      textarea {
-        margin: 5px;
-        border-radius: 10px;
-        border: 0px;
-        background-color: #323648;
-        width: 97%;
-        height: 280px;
-      }
-      textarea[id="message"] {
-        padding: 10px;
-      }
-      form {
-        width: 50%;
-        margin-top: 30px;
-        margin-left: 25%;
-        margin-right: 25%;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="E:\portfolio_kavindu(with_css)\css\index.css"
+    />
   </head>
   <body>
     <header>
@@ -142,23 +16,23 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
     <br />
     <main>
-      <div class="container-home" id="home">
-        <div class="box box1">
+      <div class="container-home">
+        <div class="box box1" id="home">
           <div class="home">
             <div class="home-text">
               <h3>Hello...</h3>
-              <h1>I'm Kavindu Tharaka</h1>
-              <h5>And I'm a Frontend Developer</h5>
+              <h1>I'm Kavindu</h1>
+              <h3>And I'm a <span>Frontend Developer</span></h3>
               <p>
                 I am a software engineering student at IJSE and currently
-                completing my second semester. <br />
-                An enthusiastic student, highly motivated, and studying Software
-                Engineering at IJSE.
+                completing my second semester. An enthusiastic student, highly
+                motivated, and studying Software Engineering at IJSE.
               </p>
             </div>
             <div class="social-icons">
@@ -193,15 +67,15 @@
                 alt="Twitter"
               />
             </div>
-              <button>Download CV</a></button>
+            <button>Download CV</button>
           </div>
         </div>
         <div class="box box2">
           <div class="home-img" id="home-img">
             <img
-              src="E:\portfolio_kavindu\images\WhatsApp_Image_2024-07-12_at_12.21.08_d3324411-removebg-preview.png"
-              width="300px"
-              height="300"
+              src="E:\portfolio_kavindu(with_css)\images\Screenshot 2024-10-14 133541.png"
+              width="340px"
+              height="340px"
               alt="Profile Picture"
             />
           </div>
@@ -213,9 +87,9 @@
           <div class="about">
             <div class="about-img">
               <img
-                src="E:\portfolio_kavindu\images\WhatsApp_Image_2024-07-12_at_12.21.08_d3324411-removebg-preview.png"
-                width="300px"
-                height="300"
+                src="E:\portfolio_kavindu(with_css)\images\Screenshot 2024-10-14 134117.png"
+                width="340px"
+                height="340px"
                 alt="Profile Picture"
               />
             </div>
@@ -223,13 +97,12 @@
         </div>
         <div class="box box4">
           <div class="about-text">
-            <h1>About Me</h1>
+            <h1>About <span>Me</span></h1>
             <h3>Frontend Developer</h3>
             <p>
               I am a software engineering student at IJSE and currently
-              completing my second semester. <br />
-              An enthusiastic student, highly motivated, and studying Software
-              Engineering at IJSE.
+              completing my second semester. An enthusiastic student, highly
+              motivated, and studying Software Engineering at IJSE.
             </p>
             <button class="btn-about">See More</button>
           </div>
@@ -238,59 +111,156 @@
 
       <div class="container-services" id="services">
         <div class="services-head">
-          <h1>My Services</h1>
+          <h1>My <span>Services</span></h1>
         </div>
         <div class="service-card">
           <div class="box box5">
+            <div class="ui">
+              <img
+                src="E:\portfolio_kavindu\images\icons8-pencil-24.png"
+                width="20px"
+                height="20"
+                alt="UI/UX Design"
+              />
+              <h3>UI/UX Design</h3>
+              <p>
+                My goal is to create compelling digital experiences that
+                resonate with users and deliver measurable results for your
+                business.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="box box6">
+            <div class="ui">
+              <img
+                src="E:\portfolio_kavindu\images\icons8-layers-48.png"
+                width="20px"
+                height="20"
+                alt="Web Development"
+              />
+              <h3>Web Development</h3>
+              <p>
+                Whether you're looking to establish an online presence, launch a
+                new web application, or enhance your existing digital platform,
+                we offer top-notch web development services.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="box box7">
+            <div class="ui">
+              <img
+                src="E:\portfolio_kavindu\images\icons8-brick-wall-48.png"
+                width="20px"
+                height="20"
+                alt="Database Management"
+              />
+              <h3>Database Management</h3>
+              <p>
+                Whether you need to streamline existing databases, migrate to a
+                new platform, or ensure compliance with data regulations, we
+                provide expert guidance and support.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-projects" id="projects">
+        <div class="projects-head">
+          <h1>My <span>Projects</span></h1>
+        </div>
+        <div class="project-card">
+          <div class="box box8">
+            <div class="pro1">
+              <img
+                src="E:\portfolio_kavindu(with_css)\images\1920x1080-hd-coding-6b7em4l2ptkptmn3.jpg"
+                width="280px"
+                height="210"
+                alt="UI/UX Design"
+              />
+              <h3>Project citro</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sit. Adipisci, temporibus officia quas necessitatibus quia
+                fugiat, aperiam maiores possimus numquam consequatur eligendi,
+                ad debitis.
+              </p>
+              <button>See Project</button>
+            </div>
+          </div>
+
+          <div class="box box9">
+            <div class="pro2">
+              <img
+                src="E:\portfolio_kavindu(with_css)\images\1920x1080-hd-coding-57rsi2a6uqxerq4i.jpg"
+                width="280px"
+                height="210"
+                alt="Web Development"
+              />
+              <h3>Project citro</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sit. Adipisci, temporibus officia quas necessitatibus quia
+                fugiat, aperiam maiores possimus numquam consequatur eligendi,
+                ad debitis.
+              </p>
+              <button>See Project</button>
+            </div>
+          </div>
+          <div class="box box10">
+            <div class="pro3">
+              <img
+                src="E:\portfolio_kavindu(with_css)\images\photo-1607705703571-c5a8695f18f6.jpeg"
+                width="280px"
+                height="210"
+                alt="Database Management"
+              />
+              <h3>Project citro</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sit. Adipisci, temporibus officia quas necessitatibus quia
+                fugiat, aperiam maiores possimus numquam consequatur eligendi,
+                ad debitis.
+              </p>
+              <button>See Project</button>
+            </div>
+          </div>
+          <!-- <div class="box box11">
             <img
               src="E:\portfolio_kavindu\images\icons8-pencil-24.png"
               width="20px"
               height="20"
               alt="UI/UX Design"
             />
-            <h4>UI/UX Design</h4>
-            <p>
-              My goal is to create compelling digital experiences that resonate
-              with users and deliver measurable results for your business.
-            </p>
-            <button><a href="#">Read More</a></button>
+            
           </div>
-          <div class="box box6">
+          <div class="box box12">
             <img
               src="E:\portfolio_kavindu\images\icons8-layers-48.png"
               width="20px"
               height="20"
               alt="Web Development"
             />
-            <h4>Web Development</h4>
-            <p>
-              Whether you're looking to establish an online presence, launch a
-              new web application, or enhance your existing digital platform, we
-              offer top-notch web development services.
-            </p>
-            <button><a href="#">Read More</a></button>
+            
           </div>
-          <div class="box box7">
+          <div class="box box13">
             <img
               src="E:\portfolio_kavindu\images\icons8-brick-wall-48.png"
               width="20px"
               height="20"
               alt="Database Management"
             />
-            <h4>Database Management</h4>
-            <p>
-              Whether you need to streamline existing databases, migrate to a
-              new platform, or ensure compliance with data regulations, we
-              provide expert guidance and support.
-            </p>
-            <button><a href="#">Read More</a></button>
-          </div>
+            
+          </div> -->
         </div>
       </div>
 
       <div class="container-contact" id="contact">
         <div class="contact-head">
-          <h1>Contact Me</h1>
+          <h1>Contact <span>Me</span></h1>
         </div>
         <div class="table">
           <form action="">
@@ -328,7 +298,103 @@
             ><br />
           </form>
         </div>
+        <button class="btncontact">Submit</button>
       </div>
+
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <img
+            src="E:\portfolio_kavindu\images\icons8-facebook-24 (1).png"
+            width="30px"
+            height="30"
+            alt="Facebook"
+          />
+          </li>
+          <li>
+            <img
+            src="E:\portfolio_kavindu\images\icons8-instagram-32.png"
+            width="30px"
+            height="30"
+            alt="Instagram"
+          />
+          </li>
+          <li>
+            <img
+            src="E:\portfolio_kavindu\images\icons8-facebook-messenger-32.png"
+            width="30px"
+            height="30"
+            alt="Messenger"
+          />
+          </li>
+          <li>
+            <img
+            src="E:\portfolio_kavindu\images\icons8-whatsapp-32.png"
+            width="30px"
+            height="30"
+            alt="WhatsApp"
+          />
+          </li>
+          <li>
+            <img
+            src="E:\portfolio_kavindu\images\icons8-twitter-48.png"
+            width="30px"
+            height="30"
+            alt="Twitter"
+          />
+          </li>
+        </ul>
+
+        <ul class="menu">
+          <li>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- <div class="social-icons">
+          <img
+            src="E:\portfolio_kavindu\images\icons8-facebook-24 (1).png"
+            width="30px"
+            height="30"
+            alt="Facebook"
+          />
+          <img
+            src="E:\portfolio_kavindu\images\icons8-instagram-32.png"
+            width="30px"
+            height="30"
+            alt="Instagram"
+          />
+          <img
+            src="E:\portfolio_kavindu\images\icons8-facebook-messenger-32.png"
+            width="30px"
+            height="30"
+            alt="Messenger"
+          />
+          <img
+            src="E:\portfolio_kavindu\images\icons8-whatsapp-32.png"
+            width="30px"
+            height="30"
+            alt="WhatsApp"
+          />
+          <img
+            src="E:\portfolio_kavindu\images\icons8-twitter-48.png"
+            width="30px"
+            height="30"
+            alt="Twitter"
+          />
+        </div> -->
+
+        <p>Created by Kavindu Tharaka</p>
+      </footer>
     </main>
   </body>
 </html>
